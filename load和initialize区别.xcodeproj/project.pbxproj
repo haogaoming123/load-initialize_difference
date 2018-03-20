@@ -13,6 +13,8 @@
 		AE54530C205FB6AC00185268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE54530B205FB6AC00185268 /* Assets.xcassets */; };
 		AE54530F205FB6AC00185268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE54530D205FB6AC00185268 /* LaunchScreen.storyboard */; };
 		AE545312205FB6AC00185268 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE545311205FB6AC00185268 /* main.m */; };
+		AE54531A205FB8CD00185268 /* SubLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = AE545319205FB8CD00185268 /* SubLoad.m */; };
+		AE54531D205FB8E900185268 /* SuperLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = AE54531C205FB8E900185268 /* SuperLoad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		AE54530E205FB6AC00185268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE545310205FB6AC00185268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE545311205FB6AC00185268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE545318205FB8CD00185268 /* SubLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubLoad.h; sourceTree = "<group>"; };
+		AE545319205FB8CD00185268 /* SubLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubLoad.m; sourceTree = "<group>"; };
+		AE54531B205FB8E900185268 /* SuperLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperLoad.h; sourceTree = "<group>"; };
+		AE54531C205FB8E900185268 /* SuperLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperLoad.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				AE54530D205FB6AC00185268 /* LaunchScreen.storyboard */,
 				AE545310205FB6AC00185268 /* Info.plist */,
 				AE545311205FB6AC00185268 /* main.m */,
+				AE545318205FB8CD00185268 /* SubLoad.h */,
+				AE545319205FB8CD00185268 /* SubLoad.m */,
+				AE54531B205FB8E900185268 /* SuperLoad.h */,
+				AE54531C205FB8E900185268 /* SuperLoad.m */,
 			);
 			path = "load和initialize区别";
 			sourceTree = "<group>";
@@ -144,7 +154,9 @@
 			files = (
 				AE545307205FB6AC00185268 /* ViewController.m in Sources */,
 				AE545312205FB6AC00185268 /* main.m in Sources */,
+				AE54531A205FB8CD00185268 /* SubLoad.m in Sources */,
 				AE545304205FB6AC00185268 /* AppDelegate.m in Sources */,
+				AE54531D205FB8E900185268 /* SuperLoad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
