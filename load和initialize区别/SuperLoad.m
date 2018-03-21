@@ -22,7 +22,11 @@
 
 @implementation SuperLoad(Category)
 +(void)load {
-    NSLog(@"我是 Category，我被调用了");
+    NSLog(@"我是 CategoryLoad，我被调用了");
+}
+
++(void)initialize {
+    NSLog(@"我是 CategoryInitialize，我被触发了");
 }
 /// 添加一个方法
 -(void)addMethod {

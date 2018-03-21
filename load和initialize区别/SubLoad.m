@@ -14,7 +14,7 @@
     NSLog(@"我是 SubLoad，我被触发了");
 }
 
-+(void)SubLoad {
++(void)initialize {
     NSLog(@"我是 SubInitialize，我被触发了");
 }
 
